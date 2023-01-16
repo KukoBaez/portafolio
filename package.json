@@ -1,0 +1,23 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "mi portafolio",
+  "main": "index2.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KukoBaez/portfolio.git"
+  },
+  "author": "Rodrigo Baez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KukoBaez/portfolio/issues"
+  },
+  "homepage": "https://github.com/KukoBaez/portfolio#readme",
+  "dependencies": {
+    "eins-modal": "^2.2.2",
+    "normalize.css": "^8.0.1"
+  }
+}
