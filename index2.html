@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible">
+        <title>Rodrigo Báez | Portfolio</title>
+        <link rel="stylesheet" href="node_modules\eins-modal\dist\css\eins-modal-plain.min.css">
+        <link rel="stylesheet" type="text/css" href="node_modules\normalize.css\normalize.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Noto+Serif&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css\css\assets\css\main.css"/>
+        <link rel="stylesheet" type="text/css" href="css\css\assets\css\fonts.css"/>
+        <link rel="stylesheet" type="text/css" href="css\css\assets\css\utils.css"/>
+        <link rel="stylesheet" type="text/css" href="css\css\assets\css\sections.css"/>
+        <link rel="stylesheet" type="text/css" href="css\css\assets\css\header.css"/>
+        <link rel="stylesheet" type="text/css" href="css\css\assets\css\nav.css"/>
+        <link rel="stylesheet" type="text/css" href="css\css\assets\css\portfolio.css"/>
+        <link rel="stylesheet" type="text/css" href="css\css\assets\css\skillset.css"/>
+        <link rel="stylesheet" type="text/css" href="css\css\assets\css\experience.css"/>
+        <link rel="stylesheet" type="text/css" href="css\css\assets\css\contact.css"/>
+    </head>
+    <body>
+        <header>
+            <img src="dibujos pornets\IMG_20200209_135034.jpg" class="circle" alt="large logo" height="100" />
+            <h1>Rodrigo Báez</h1>
+            <hr/>
+            <h2>Artist</h2>
+            <img id="cuadro1" src="dibujos pornets\cuadro_patan.jpeg" height="300">
+        </header>
+        <nav id="navbar">
+            <div>
+                <a href="/">
+                    <img src="dibujos pornets\IMG_20200209_135034.jpg" class="circle" alt="small logo" height="40" />
+                    <span>Rodrigo Báez <small>Artist</small></span>
+                </a>
+                <button id="hamburguer">≡</button>
+            </div>
+            
+            <ul>
+                <li><a href="#portfolio">Portfolio</a> </li>
+                <li><a href="#Skillset">Skillset</a> </li>
+                <li><a href="#experience">Experience</a> </li>
+                <li><a href="#contact">Contact</a> </li>
+            </ul>
+
+        </nav>
+        <main>
+            <section id="portfolio">
+                <h3>Portfolio</h3>
+                <br/>
+                <div>
+                    <button>
+                        <img src="dibujos pornets\5.jpg" height="300">
+                        <h4>Luna llena nº 5</h4>
+                    </button>
+                    <br>
+                    <button>
+                        <img src="dibujos pornets\15.jpg" height="300">
+                        <h4>Luna llena nº 15</h5>
+                    </button>
+                    <br>
+                    <button>
+                        <img src="dibujos pornets\8.jpg" height="300">
+                        <h4>Luna llena nº 8</h6>
+                    </button>
+                </div>
+            </section>
+            <section id="skillset">
+                <h3>Skillset</h3>
+                <hr/>
+                <div>
+                <div>
+                    <img src="skillset\1662977227549.jpg" height="300"/>
+                    <span class="tooltip">Acrylic</span>
+                </div>
+                <div>
+                    <img src="skillset\pacodisco1.jpg" height="300"/>
+                    <span class="tooltip">Watercolour</span>
+                </div>
+                <div>
+                    <img src="skillset\1638877596872.jpg" height="300"/>
+                    <span class="tooltip">Pencil</span>
+                </div>
+                <div>
+                    <img src="skillset\dibujo abuelo.jpg" height="300"/>
+                    <span class="tooltip">Pen</span>
+                </div>
+                </div>
+            </section>
+            <section id="experience">
+                <h3>Experience</h3>
+                <hr/>
+                <div>
+                    <a data-modal-id="myModal">
+                        <img src="experience\cartel_4.jpg" height="300"/>
+                        <h4>Exhibition "Libérate</h4>
+                    </a>
+                    <a>
+                        <img src="experience\IMG_3353.jpeg" height="300"/>
+                        <h4>Exhibition Art Cafe Oxford</h4>
+                    </a>
+                </div>
+            </section>
+            <section id="contact">
+                <h3>Contact</h3>
+                <hr/>
+                <form action="https://formspree.io/f/{form_id}" method="post">
+                    <label for="email">Your Email</label>
+                    <input name="Email" id="email" type="email">
+                    <label for="Message">Message</label>
+                    <textarea name="Message"></textarea>
+                    <button type="submit">Send</button>
+                </form>
+                <nav id="social-media">
+                    <a href="https://www.instagram.com/kukobaez_/">
+                        <img id="Instagram" src="html~\html\assets\img\social\instagram.jfif" height="40"/>             
+                    </a>
+                </nav>
+            </section>
+        </main>
+            <footer>
+                <div id="myModal" class="eins-modal">
+                    <div class="eins-modal-content">
+                      <div class="eins-modal-close"></div>
+                  
+                      Mi primer trabajo
+                      
+                      <button class="eins-modal-close-button">OK</button>
+                    </div>
+                  </div>
+                <small>Designed and developed by Rodrigo Báez. ⓒ2022. All rights reserved.</small>
+            </footer>
+            <script src="js\js\assets\js\main.js"></script>
+            <script src="js\js\assets\js\fixed.js"></script>
+            <script src="node_modules\eins-modal\dist\js\eins-modal-plain.min.js"></script>
+    </body>
+</html>
